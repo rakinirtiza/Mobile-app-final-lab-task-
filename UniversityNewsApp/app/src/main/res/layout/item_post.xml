@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/cardPost"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+
+    android:layout_margin="8dp"
+
+    app:cardCornerRadius="12dp"
+
+    app:cardElevation="4dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+
+        android:padding="12dp">
+
+        <!-- TITLE -->
+
+        <TextView
+
+            android:id="@+id/titleText"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:text="Post Title"
+
+            android:textSize="18sp"
+
+            android:textStyle="bold"/>
+
+        <!-- BODY -->
+
+        <TextView
+
+            android:id="@+id/bodyText"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="6dp"
+
+            android:maxLines="2"
+
+            android:ellipsize="end"
+
+            android:text="Post body"/>
+
+        <!-- ID -->
+
+        <TextView
+
+            android:id="@+id/idText"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="6dp"
+
+            android:text="Post ID"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
